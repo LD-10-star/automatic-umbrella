@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BrightMind Tutoring</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #005792;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #003f5c;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #005792;
+    }
+
+    .services, .contact, .booking {
+      margin-bottom: 3rem;
+    }
+
+    footer {
+      background-color: #003f5c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .button {
+      background-color: #ffa41b;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BrightMind Tutoring</h1>
+    <p>Empowering students with knowledge and confidence</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#booking">Book a Session</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Math (Elementary to College Level)</li>
+      <li>Science (Biology, Chemistry, Physics)</li>
+      <li>English & Essay Writing</li>
+      <li>SAT/ACT Prep</li>
+      <li>Homework Help</li>
+    </ul>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Book a Session</h2>
+    <p>We offer both in-person and online sessions. Choose what works best for your schedule.</p>
+    <p><strong>Availability:</strong> Monday–Friday: 3 PM – 8 PM | Saturday: 10 AM – 4 PM</p>
+    <a href="mailto:bookings@brightmindtutoring.com?subject=Tutoring%20Session%20Booking" class="button">Request a Session</a>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> contact@brightmindtutoring.com</p>
+    <p><strong>Phone:</strong> (555) 123-4567</p>
+    <p><strong>Location:</strong> 123 Learning Lane, Studyville, ST 00000</p>
+    <p>Follow us on 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BrightMind Tutoring. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
